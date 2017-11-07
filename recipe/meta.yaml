@@ -11,7 +11,7 @@ source:
 build:
   number: 2
   noarch: python
-  script: pip install .
+  script: python -m pip install --no-deps .
 
 requirements:
   build:
