@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2026.4"
+  version: "2026.5"
   python_check_max: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytz/pytz-${{ version }}.tar.gz
-  sha256: 464303645bafafd72418898368b2429458f709cf1eb6a15372fbcc396b64da63
+  sha256: fa23724b9c486543b9ff54a327ee7569ac83ade54bb9afd0fc18676620401c86
 
 build:
   number: 0
